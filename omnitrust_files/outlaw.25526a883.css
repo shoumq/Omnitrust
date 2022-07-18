@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* Generated on: Wed Mar 09 2022 06:17:27 GMT+0000 (Coordinated Universal Time) */
 
@@ -12,7 +13,9 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 * {
-    font-family: 'Russo One', sans-serif !important;
+    /* font-family: 'Russo One', sans-serif !important; */
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 600;
 }
 
 html {
@@ -2344,7 +2347,7 @@ p {
 }
 
 a {
-    color: #c92626;
+    color: #d62736;
     text-decoration: none;
 }
 
@@ -2490,12 +2493,12 @@ blockquote {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    background-color: #c92626;
+    background-color: #d62736;
     color: #fff;
 }
 
 .button {
-    background-color: #c92626 !important;
+    background-color: #d62736 !important;
 }
 
 .button-dark {
@@ -2858,7 +2861,7 @@ blockquote {
     grid-template-columns: 1fr 1fr;
     -ms-grid-rows: auto;
     grid-template-rows: auto;
-    background-color: #c92626 !important;
+    background-color: #d62736 !important;
 }
 
 .utility-text-field {
@@ -2875,7 +2878,7 @@ blockquote {
 
 .utility-text-field:focus {
     border-style: solid;
-    border-color: #c92626;
+    border-color: #d62736;
 }
 
 .utility-text-field::-webkit-input-placeholder {
@@ -2982,7 +2985,7 @@ blockquote {
     -webkit-align-items: flex-end;
     -ms-flex-align: end;
     align-items: flex-end;
-    color: #c92626;
+    color: #d62736;
     font-size: 0.8em;
     font-weight: 700;
     text-align: center;
@@ -3151,7 +3154,7 @@ blockquote {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    background-color: #c92626;
+    background-color: #d62736;
     -webkit-transition: color 200ms ease, border-color 200ms ease, background-color 200ms ease;
     transition: color 200ms ease, border-color 200ms ease, background-color 200ms ease;
     color: #fff;
@@ -3575,7 +3578,7 @@ blockquote {
 
 .caption-text {
     margin-bottom: 0.625rem;
-    color: #c92626;
+    color: #d62736;
     font-size: 0.8em;
     font-weight: 700;
     letter-spacing: 0.25em;
@@ -3884,13 +3887,10 @@ blockquote {
 }
 
 .nav-brand-icon-image {
-    width: 14em;
-    height: 4em;
+    width: 9em;
     min-height: 4em;
     min-width: 4em;
     margin-right: 1em;
-    -o-object-fit: contain;
-    object-fit: contain;
 }
 
 .slider-lawyers-mask {
@@ -3986,7 +3986,7 @@ blockquote {
     position: absolute;
     width: 50%;
     height: 1px;
-    background-color: #c92626;
+    background-color: #d62736;
 }
 
 .line-color.bottom {
@@ -4082,7 +4082,7 @@ blockquote {
     top: -1px;
     right: auto;
     bottom: auto;
-    background-color: #c92626;
+    background-color: #d62736;
 }
 
 .colored-line.bottom {
@@ -4413,11 +4413,11 @@ blockquote {
         -webkit-align-items: center;
         -ms-flex-align: center;
         align-items: center;
-        background-color: #c92626;
+        background-color: #d62736;
         font-size: 1em;
     }
     .nav-menu-button.w--open {
-        background-color: #c92626;
+        background-color: #d62736;
         color: #151515;
     }
     .nav-link {
