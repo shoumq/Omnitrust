@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
 /* Generated on: Wed Mar 09 2022 06:17:27 GMT+0000 (Coordinated Universal Time) */
 
 
@@ -7,6 +10,10 @@
 
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+* {
+    font-family: 'Russo One', sans-serif !important;
+}
 
 html {
     font-family: sans-serif;
@@ -2337,7 +2344,7 @@ p {
 }
 
 a {
-    color: #006cff;
+    color: #c92626;
     text-decoration: none;
 }
 
@@ -2868,7 +2875,7 @@ blockquote {
 
 .utility-text-field:focus {
     border-style: solid;
-    border-color: #006cff;
+    border-color: #c92626;
 }
 
 .utility-text-field::-webkit-input-placeholder {
@@ -2902,7 +2909,7 @@ blockquote {
     -ms-flex-align: center;
     align-items: center;
     background-color: #f5f5f5;
-    background-image: url("https://assets.website-files.com/5beac993c16eeddf6a0d6822/618bf6c1a4257865938dc390_image-map.jpg");
+    background-image: url(/omnitrust_files/mapgr.jpg);
     background-position: 50% 50%;
     background-size: cover;
     -webkit-filter: grayscale(100%);
@@ -3144,7 +3151,7 @@ blockquote {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    background-color: #006cff;
+    background-color: #c92626;
     -webkit-transition: color 200ms ease, border-color 200ms ease, background-color 200ms ease;
     transition: color 200ms ease, border-color 200ms ease, background-color 200ms ease;
     color: #fff;
@@ -3877,7 +3884,7 @@ blockquote {
 }
 
 .nav-brand-icon-image {
-    width: 4em;
+    width: 14em;
     height: 4em;
     min-height: 4em;
     min-width: 4em;
@@ -3979,7 +3986,7 @@ blockquote {
     position: absolute;
     width: 50%;
     height: 1px;
-    background-color: #006cff;
+    background-color: #c92626;
 }
 
 .line-color.bottom {
@@ -4075,7 +4082,7 @@ blockquote {
     top: -1px;
     right: auto;
     bottom: auto;
-    background-color: #006cff;
+    background-color: #c92626;
 }
 
 .colored-line.bottom {
@@ -4406,11 +4413,11 @@ blockquote {
         -webkit-align-items: center;
         -ms-flex-align: center;
         align-items: center;
-        background-color: #006cff;
+        background-color: #c92626;
         font-size: 1em;
     }
     .nav-menu-button.w--open {
-        background-color: #006cff;
+        background-color: #c92626;
         color: #151515;
     }
     .nav-link {
